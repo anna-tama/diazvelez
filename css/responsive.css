@@ -1,0 +1,180 @@
+/* =====================
+   desktop
+   min-width: 768px;
+   max-width: 1024px;
+
+===================== */
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #latest-work .block .recent-work-pic ul li .overlay {
+    top: 12px;
+    left: 25px;
+    bottom: 12px;
+    right: 25px;
+  }
+  #team .team-overlay {
+    padding: 10px;
+  }
+}
+
+
+
+/* =====================
+
+   Tablets
+   min-width: 640px;
+   max-width: 767px;
+
+===================== */
+
+@media (min-width: 640px) and (max-width: 767px) {
+
+  #contact-form .col {
+    margin-bottom: 20px;
+  }
+
+  #blog-left .blog-img .col-md-6 img{
+    margin-bottom: 20px;
+  }
+
+  #play-video{
+    padding: 30px 0px;
+  }
+
+  #play-video .block p{
+    padding-bottom: 0px;
+  }
+
+  #play-video .block h2{
+    font-size: 19px;
+  }
+
+}
+
+
+
+/* =====================
+
+   Small Devices
+   min-width: 320px;
+   max-width: 479px;
+
+===================== */
+
+
+@media (min-width: 320px) and (max-width: 479px) {
+
+  iframe{
+    width:100%; 
+    height:200px;
+  }
+
+  #banner {
+    text-align: center;
+    padding:0px;
+  }
+  #banner .block .buttons a:first-child {
+    margin-left: 7px;
+    margin-bottom: 10px;
+  }
+  #banner .block h1 {
+    font-size: 42px;
+    padding:0px;
+    padding-bottom: 60px;
+  }
+  #blog{
+    padding: 68px 0;
+  }
+
+  #latest-work .block .recent-work-mixMenu ul li {
+    display: block;
+  }
+  #latest-work .block .recent-work-pic ul li .overlay {
+    top: 5px;
+    left: 20px;
+    bottom: 5px;
+    right: 20px;
+  }
+  #latest-work .block .recent-work-pic ul li .overlay h3 {
+    font-size: 14px;
+  }
+  #latest-work .block .recent-work-pic ul li .overlay i {
+    top: 34%;
+    font-size: 23px;
+  }
+  #testimonial .col {
+    padding: 20px;
+    text-align: center;
+  }
+  #testimonial .media .media-left {
+    display: block;
+    padding-right: 0;
+  }
+  #testimonial .media .media-left a {
+    height: 78px;
+    width: 78px;
+    margin: 0 auto;
+  }
+  #testimonial .media .media-body {
+    padding-right: 0;
+  }
+  #team .col {
+    margin-bottom: 20px;
+  }
+
+  #client-logo a img{
+    padding: 85px;
+  }
+
+  #contact-form {
+    padding: 66px 0px;
+  }
+
+  #contact-form .col {
+    margin-bottom: 20px;
+  }
+
+  #form-contacto{
+    width: 96%;
+  }
+
+  #blog-left .block .blog-comment .comment-img,
+  #blog-left .blog-comment-main .blog-comment .comment-img,
+  #blog-left .blog-comment-main .sub-blog-comment .comment-img{
+    float: none;
+  }
+
+  #blog-left .blog-comment-main .sub-blog-comment{
+    margin-left: 0;
+  }
+
+  #blog-left .blog-img .col-md-6 img{
+    margin-bottom: 20px;
+  }
+
+  #play-video{
+    padding: 17px 0px;
+  }
+
+  #play-video .block p{
+    padding-bottom: 0px;
+  }
+
+  #play-video .block h2{
+    font-size: 19px;
+  }
+
+  .title{
+    padding-bottom: 40px;
+  }
+
+  .whatsapp{
+    right: 4%;
+  }
+
+  .up{
+    padding-top: 26%;
+  }
+
+}
